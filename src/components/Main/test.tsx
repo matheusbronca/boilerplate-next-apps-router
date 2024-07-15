@@ -13,8 +13,7 @@ describe('<Main />', () => {
       })
     ).toBeInTheDocument()
 
+    // gerar snapshot
     expect(container.firstChild).toMatchSnapshot()
   })
-
-  // gerar snapshot
 })
